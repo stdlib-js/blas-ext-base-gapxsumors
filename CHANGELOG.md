@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-02-02)
+## Unreleased (2025-02-08)
 
 <section class="features">
 
@@ -22,6 +22,7 @@
 
 <details>
 
+-   [`966f409`](https://github.com/stdlib-js/stdlib/commit/966f409c74eb6fb61c8514d0a87b19eebb9f56cd) - **docs:** update related packages sections [(#5108)](https://github.com/stdlib-js/stdlib/pull/5108) _(by stdlib-bot)_
 -   [`419a872`](https://github.com/stdlib-js/stdlib/commit/419a872327435d5d3549cf6de16d1e9766a98e80) - **feat:** add accessor arrays support to `blas/ext/base/gapxsumors` [(#4930)](https://github.com/stdlib-js/stdlib/pull/4930) _(by Muhammad Haris, Athan Reines)_
 -   [`04c416e`](https://github.com/stdlib-js/stdlib/commit/04c416e031e2655eb6303e1aeda40a460dab4134) - **refactor:** update `blas/ext/base/gapxsumors` to follow current project conventions [(#4381)](https://github.com/stdlib-js/stdlib/pull/4381) _(by Muhammad Haris, Athan Reines)_
 -   [`32deb11`](https://github.com/stdlib-js/stdlib/commit/32deb11c6a2453748d8db9554b6bb3fdb73a077f) - **docs:** update related packages sections [(#3976)](https://github.com/stdlib-js/stdlib/pull/3976) _(by stdlib-bot)_
