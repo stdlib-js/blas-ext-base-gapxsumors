@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-03-03)
+## Unreleased (2025-05-25)
 
 <section class="features">
 
@@ -16,12 +16,25 @@
 
 <!-- /.features -->
 
+<section class="bug-fixes">
+
+### Bug Fixes
+
+-   [`981c7ba`](https://github.com/stdlib-js/stdlib/commit/981c7baecfe6ab8ab4d973e95cd20453f90c5e28) - add missing checks for `N` and address failing tests stemming from refactoring
+
+</section>
+
+<!-- /.bug-fixes -->
+
 <section class="commits">
 
 ### Commits
 
 <details>
 
+-   [`981c7ba`](https://github.com/stdlib-js/stdlib/commit/981c7baecfe6ab8ab4d973e95cd20453f90c5e28) - **fix:** add missing checks for `N` and address failing tests stemming from refactoring _(by Athan Reines)_
+-   [`3e9f3a0`](https://github.com/stdlib-js/stdlib/commit/3e9f3a0bdc4c231521f39148dbff889815bae6d7) - **docs:** fix missing period _(by Athan Reines)_
+-   [`e7f9e5b`](https://github.com/stdlib-js/stdlib/commit/e7f9e5b8f6d0dcb71bb5f6348e982dbf5155a3d4) - **refactor:** simplify implementation _(by Athan Reines)_
 -   [`966f409`](https://github.com/stdlib-js/stdlib/commit/966f409c74eb6fb61c8514d0a87b19eebb9f56cd) - **docs:** update related packages sections [(#5108)](https://github.com/stdlib-js/stdlib/pull/5108) _(by stdlib-bot)_
 -   [`419a872`](https://github.com/stdlib-js/stdlib/commit/419a872327435d5d3549cf6de16d1e9766a98e80) - **feat:** add accessor arrays support to `blas/ext/base/gapxsumors` [(#4930)](https://github.com/stdlib-js/stdlib/pull/4930) _(by Muhammad Haris, Athan Reines)_
 -   [`04c416e`](https://github.com/stdlib-js/stdlib/commit/04c416e031e2655eb6303e1aeda40a460dab4134) - **refactor:** update `blas/ext/base/gapxsumors` to follow current project conventions [(#4381)](https://github.com/stdlib-js/stdlib/pull/4381) _(by Muhammad Haris, Athan Reines)_
