@@ -48,13 +48,18 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import gapxsumors from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gapxsumors@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/blas-ext-base-gapxsumors/tags). For example,
+
+```javascript
 import gapxsumors from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gapxsumors@v0.3.0-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { ndarray } from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gapxsumors@v0.3.0-esm/index.mjs';
+import { ndarray } from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gapxsumors@esm/index.mjs';
 ```
 
 #### gapxsumors( N, alpha, x, strideX )
@@ -152,7 +157,7 @@ var v = gapxsumors.ndarray( 4, 5.0, x, 2, 1 );
 <script type="module">
 
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@esm/index.mjs';
-import gapxsumors from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gapxsumors@v0.3.0-esm/index.mjs';
+import gapxsumors from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gapxsumors@esm/index.mjs';
 
 var x = discreteUniform( 10, -100, 100, {
     'dtype': 'float64'
